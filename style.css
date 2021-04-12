@@ -1,71 +1,46 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,600;1,700&display=swap');
-:root{
-    --primary-color: #9503e9;
-}
-
-body{
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#txt-input{
-    font-weight:100;
-    padding: 0px;
-    height: 20vh;
+h1 {
     width: 100%;
-    background-color:var(--primary-color);
-    border-radius: 1rem;
+    background-image: url("images/snp.jpg");
+    border-radius: 6rem;
+    color: #417297;
+    text-align: center;
+    height: 3rem;
+    font-size: 2.5rem;
 }
 
-#txt-input h1{
-    text-align: center;
-    margin: auto;
-    padding-top: 5vh;
-    color: aliceblue;   
+body {
+    background-image: url("/images/snapchat.png");
 }
 
-#date-box{
+#date-box {
+    width: 50%;
+    height: 10vh;
+    display: block;
+    margin: 4rem;
+    padding: 4rem;
+    background: #8503ff2a;
+    border-color: solid black;
     text-align: center;
-    margin: 10vw;
-}
+} 
 
 #txt-output {
-    border: 1px var(--primary-color) solid;
-    height: 5vh;
-    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    height: 10vh;
+    width: 65%;
+    margin: 4rem;
     padding: 1rem;
-    margin: auto;
+    color: white;
+    background-color: #6191b548;
 }
 
-#btn-check{
-   padding: 1rem;
-   border:none;
-   background-color: var(--primary-color);
-   color: aliceblue;
-   border-radius: 0.5rem;
-
-}
-.footer{
-    padding: 1rem;
-    background-color: var(--primary-color);
-    margin-top:27vh;
-    margin-bottom: 0.2rem;
-    display: flex;
-    justify-content: space-between;
-    border-top-right-radius: 1rem;
-    
-}
-
-.footer-list{
-    list-style: none;
-    display: flex;
-}
-.footer-list .li-items:hover{
-    font-weight: bolder;
-}
-.footer a{
-    padding: 0.5rem;
-    text-decoration: none;
-    color: aliceblue;
+button {
+    position: relative; */
+    padding: 15px 30px;
+    width: 15%;
+    color: rgb(119, 0, 255);
+    letter-spacing: 4px;
+    font-size: large;
+    overflow: hidden;
+    transition: 0.5s;
+    background-image: url("images/bna.jpg");
 }
